@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "816234570003",
+    "firebase_url": "https://pro-home-cook.firebaseio.com",
+    "project_id": "pro-home-cook",
+    "storage_bucket": "pro-home-cook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816234570003:android:a9d5972a272d6e8e133ae6",
+        "android_client_info": {
+          "package_name": "com.example.phc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816234570003-787p3fec3fl8ih9ldspk1cv3ug9bjs5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phc",
+            "certificate_hash": "661790285677d8efd340f2f5e6e896f999a7221f"
+          }
+        },
+        {
+          "client_id": "816234570003-87mcr3tu1qd7s9pj3660g5dlb6qdv6oi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phc",
+            "certificate_hash": "d156448f2148b3357476a79f0e22103fe9d416de"
+          }
+        },
+        {
+          "client_id": "816234570003-151cs30lpdpdf8rrj7obokhpet0ib8cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_fpQ0R2P7BIofp3m8ZtWHg5XA8NcLAzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816234570003-151cs30lpdpdf8rrj7obokhpet0ib8cb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
