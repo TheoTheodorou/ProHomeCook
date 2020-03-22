@@ -9,6 +9,16 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
+import android.os.Handler;
+import android.os.Looper;
+import android.widget.Toast;
+
+import com.example.phc.models.Recipe;
+import com.example.phc.services.HttpRequest;
+import com.example.phc.utilities.AccountManagement;
+
+import java.io.IOException;
+
 
 import com.example.phc.Fragments.UserRecipesFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationMenu;
@@ -51,3 +61,24 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         return true;
     }
 }
+
+//Example code to toast recipe title from id
+//        Thread thread = new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                try {
+//                    Recipe recipe = HttpRequest.getRecipeInformation("1034053");
+//                    final String title = recipe.getTitle();
+//
+//                    new Handler(Looper.getMainLooper()).post(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            Toast.makeText(context, title, Toast.LENGTH_SHORT).show();
+//                        }
+//                    });
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        });
+//        thread.start();
